@@ -1,0 +1,69 @@
+[
+  {
+    "command_name": "sign_up",
+    "parameters": {
+      "username": "admin",
+      "password": "admin",
+      "email": "admin@dshasin.net"
+    }
+  },
+  {
+    "command_name": "sign_in",
+    "parameters": {
+      "username": "admin",
+      "password": "admin"
+    }
+  },
+  {
+    "command_name": "add_phone_user",
+    "parameters": {
+      "username": "user1",
+      "phone_number": "2653112"
+    }
+  },
+  {
+    "command_name": "get_phone_user_by_name",
+    "parameters": {
+      "username": "user1"
+    }
+  },
+  {
+    "command_name": "add_phone_number",
+    "parameters": {
+      "username": "user1",
+      "phone_number": "44653112"
+    }
+  },
+  {
+    "command_name": "edit_phone_user",
+    "parameters": {
+      "username": "user1",
+      "phone_number": "44653112",
+      "new_phone_number": "66056477",
+      "new_username": "user2"
+    }
+  },
+  {
+    "command_name": "get_all_phone_users",
+    "parameters": {
+    }
+  },
+  {
+    "command_name": "get_phone_user_by_name",
+    "parameters": {
+      "username": "user2"
+    }
+  },
+  {
+    "command_name": "get_phone_user_by_number",
+    "parameters": {
+      "phone_number": "2653112"
+    }
+  },
+  {
+    "command_name": "remove_phone_user",
+    "parameters": {
+      "username": "user2"
+    }
+  }
+]
