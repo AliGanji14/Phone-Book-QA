@@ -1,4 +1,3 @@
-"""Non-functional tests (the 2 optional cases allowed by the assignment)"""
 import time
 
 from conftest import run_cmd, uid

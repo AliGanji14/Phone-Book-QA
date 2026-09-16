@@ -1,4 +1,3 @@
-"""Client-side tests — TC-C-* cases mapped in docs/02_test_cases.md"""
 import os
 import subprocess
 import sys

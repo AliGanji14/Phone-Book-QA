@@ -1,4 +1,3 @@
-"""Functional (positive) server tests — TC-S-* cases mapped in docs/02_test_cases.md"""
 import pytest
 
 from conftest import run_cmd, uid

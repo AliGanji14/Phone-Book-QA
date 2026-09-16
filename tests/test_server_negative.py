@@ -1,6 +1,3 @@
-"""Negative server tests — each test gets its own server because these cases
-are expected to expose crash defects. Spec requirement: the server must answer
-with a structured {"command_name", "result"} error and keep running."""
 import pytest
 
 from conftest import assert_server_survives, run_cmd, uid
